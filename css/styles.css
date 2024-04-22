@@ -111,8 +111,6 @@ color: #404bbf;
 
 /* ===================== HERO IMAGE ===================== */
 .hero-container{
-  padding-top: 188px;
-  padding-bottom: 188px;
   text-align: center;
 }
 
@@ -121,6 +119,8 @@ color: #404bbf;
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 188px;
+        padding-bottom: 188px;
 }
 
 .main-title {
@@ -136,6 +136,7 @@ font-size: 56px;
 }
 
 .order-button {
+    display: block;
 font-family: inherit;
 background: #4d5ae5;
 font-weight: 500;
@@ -149,6 +150,8 @@ font-weight: 500;
         height: 56px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         border: none;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .order-button:hover,
@@ -157,6 +160,11 @@ font-weight: 500;
 }
 
 /* ===================== Descriprion ===================== */
+.description-section{
+padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -182,12 +190,17 @@ font-weight: 500;
     
 }
 
+.description-item{
+    flex-basis: calc((100% - 72px) / 4);
+}
+
 .descriprion-title-list {
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .description-paragraph {
@@ -289,6 +302,8 @@ font-size: 16px;
 
 .page-footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
@@ -299,6 +314,8 @@ font-size: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-studio{
