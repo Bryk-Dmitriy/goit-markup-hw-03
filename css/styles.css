@@ -20,10 +20,10 @@ button{
     margin-top: 0;
     margin-bottom: 0;
  }
- img{
+ img {
     display: block;
-    margin-bottom: 32px;
  }
+
 
  .section{
     padding: 120px 120px;
@@ -211,6 +211,7 @@ font-size: 16px;
 }
 
 /* ===================== OUR TEAM ===================== */
+
 .our-time-list{
     display: flex;
     gap: 24px;
@@ -218,10 +219,19 @@ font-size: 16px;
 
 .our-time-section{
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-time-item {
     background: #fff;
+    border-radius: 0px 0px 4px 4px
+    
+}
+
+.container-name-proffession{
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .our-time-title {
@@ -253,6 +263,11 @@ font-size: 16px;
 }
 
 /* ===================== OUR PORTFOLIO ===================== */
+.portfolio-section{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .portfolio-container{
 width: 1128;
 }
@@ -270,8 +285,14 @@ font-size: 36px;
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
+.portfolio-app{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
 }
 
 .portfolio-items{
