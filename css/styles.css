@@ -341,6 +341,7 @@ font-size: 16px;
 
 .footer-studio{
 color: #f4f4fd;
+display: inline-block;
 }
 
 .footer-paragraph {
