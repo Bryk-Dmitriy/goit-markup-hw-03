@@ -16,7 +16,7 @@ button{
     cursor: pointer;
  }
 
- h1, h2, h3, h4{
+ h1, h2, h3, h4, p{
     margin-top: 0;
     margin-bottom: 0;
  }
@@ -132,7 +132,7 @@ font-size: 56px;
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .order-button {
@@ -181,7 +181,6 @@ padding-top: 120px;
 .descriprion-container{
     margin-left: auto;
     margin-right: auto;
-    width: 1128px;
 }
 
 .description-list{
@@ -266,10 +265,6 @@ font-size: 16px;
 .portfolio-section{
 padding-top: 120px;
 padding-bottom: 120px;
-}
-
-.portfolio-container{
-width: 1128;
 }
 
 .portfolio-title {
